@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bulma";
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body > footer {
+  margin-top: auto;
+  padding: 1.5rem;
+  background-color: hsl(0, 0, 98%);
+}
