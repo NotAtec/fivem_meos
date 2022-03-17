@@ -1,0 +1,2 @@
+module VehicleNotesHelper
+end

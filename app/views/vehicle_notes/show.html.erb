@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @vehicle_note %>
+
+<div>
+  <%= link_to "Edit this vehicle note", edit_vehicle_note_path(@vehicle_note) %> |
+  <%= link_to "Back to vehicle notes", vehicle_notes_path %>
+
+  <%= button_to "Destroy this vehicle note", @vehicle_note, method: :delete %>
+</div>

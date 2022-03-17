@@ -1,0 +1,2 @@
+module InwonersHelper
+end
